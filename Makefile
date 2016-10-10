@@ -6,7 +6,7 @@ update:
 	cd SpinalCoreQT/; git pull;
 
 run:
-	./run
+	./run &
 
 clean:
 	rm -rf build; rm -f run;
