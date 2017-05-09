@@ -3,7 +3,7 @@ QT      += core gui
 QT      += network
 
 CONFIG += warn_off
-TARGET = ./run
+TARGET = ../run
 TEMPLATE = app
 
 
