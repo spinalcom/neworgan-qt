@@ -3,7 +3,7 @@ all:
 	mkdir -p build; cd build/; qmake ../; make;
 
 update:
-	cd SpinalCoreQT/; git pull;
+	git pull;
 
 run:
 	./run &
@@ -11,4 +11,7 @@ run:
 clean:
 	rm -rf build; rm -f run;
 
-.PHONY: all update run stop clean
+init:
+	@true
+
+.PHONY: all update run stop clean init
